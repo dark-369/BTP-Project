@@ -1,0 +1,29 @@
+==================================================
+SARVAM-1 FINE-TUNED TRANSLATION SAMPLES
+Date Completed: 2026-03-24 15:57:12
+Hardware: PARAM Rudra
+==================================================
+Sentence 1:
+English: I am very happy to see the successful completion of my project.
+Hindi:   मुझे अपने प्रोजेक्ट की सफल पूर्णता देखकर बहुत खुशी हो रही है।
+--------------------------------------------------
+
+Sentence 2:
+English: Artificial intelligence and machine learning are transforming the future of technology.
+Hindi:   आर्टिफिशियल इंटेलिजेंस और मशीन लर्निंग (एआई एंड एमएल) टेक्नोलॉजी का भविष्य बदल रहा है।
+--------------------------------------------------
+
+Sentence 3:
+English: Please let me know if you need any further assistance with this task.
+Hindi:   कृपया मुझे बताएं कि क्या इस कार्य के साथ आपको किसी अन्य सहायता की आवश्यकता है।
+--------------------------------------------------
+
+Sentence 4:
+English: The weather is incredibly beautiful today, let's go outside for a walk.
+Hindi:   मौसम बेहद सुंदर है आज, चलें बाहर जाकर सैर-सपाटा करें।
+--------------------------------------------------
+
+Sentence 5:
+English: To create a new session in Tmux, you can use a simple terminal command.
+Hindi:   एक नया सत्र बनाने के लिए आप सरल टर्मिनल कमांड का उपयोग कर सकते हैं।
+--------------------------------------------------

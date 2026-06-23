@@ -1,0 +1,23 @@
+==================================================
+B.TECH PROJECT: FINAL ARCHITECTURE COMPARISON (IN22-GEN)
+==================================================
+Date Completed: 2026-03-28 20:00:19
+Author: Harsh Dahiya
+Hardware: PARAM Rudra (A100 80GB)
+Task: English to Hindi Translation
+Benchmark Data: IN22-Gen Benchmark
+
+FINAL QUANTITATIVE METRICS (4-bit Quantised Model Results, English -> Hindi):
+--------------------------------------------------
+
+[PRAGNA-1B]
+ - BLEU Score:  8.22
+ - chrF Score:  31.91
+ - COMET Score: 63.42
+
+[SARVAM-1]
+ - BLEU Score:  20.32
+ - chrF Score:  48.33
+ - COMET Score: 77.35
+
+==================================================

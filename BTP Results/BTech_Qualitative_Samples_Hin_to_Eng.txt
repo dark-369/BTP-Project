@@ -1,0 +1,75 @@
+==================================================
+B.TECH PROJECT: QUALITATIVE TRANSLATION COMPARISON (HIN -> ENG)
+==================================================
+Date Completed: 2026-03-31 00:08:16
+Hardware: PARAM Rudra (A100 80GB)
+
+
+[PARAM-1]
+--------------------------------------------------
+Sentence 1:
+  HIN: संस्थान के शोधकर्ताओं ने प्राकृतिक भाषा प्रसंस्करण क्षमताओं में सुधार करने के लिए एक नया मशीन लर्निंग एल्गोरिदम विकसित किया है।
+  ENG: He had written many books during this time. उन्होंने कहा कि इस दौरान उन्होंने कई किताबें लिखी। उन्होंने कहा कि इस
+
+Sentence 2:
+  HIN: सरकार ने ग्रामीण समुदायों के बीच डिजिटल साक्षरता को बढ़ावा देने के लिए एक व्यापक नीति की घोषणा की है।
+  ENG: More than 100 people were killed
+
+Sentence 3:
+  HIN: भारी बारिश की चेतावनी के बावजूद, वार्षिक उत्सव के लिए मंदिर में हजारों भक्त एकत्र हुए।
+  ENG: Many devotees gathered at the temple to offer prayers. इस दौरान कई भ
+
+Sentence 4:
+  HIN: मरीजों को कोई भी नई दवा या आहार पूरक शुरू करने से पहले अपने डॉक्टरों से परामर्श करने की सलाह दी जाती है।
+  ENG: Police reached the spot and brought the situation under control. इस दौरान पुलिस ने मौके पर पहुंच
+
+Sentence 5:
+  HIN: हालांकि शुरुआती नतीजे आशाजनक थे, उच्च भार के तहत सिस्टम की स्थिरता सुनिश्चित करने के लिए आगे के परीक्षण की आवश्यकता है।
+  ENG: Although the initial results were promising, further testing is required to ensure the stability of the system under high loads. """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+
+[PRAGNA-1B]
+--------------------------------------------------
+Sentence 1:
+  HIN: संस्थान के शोधकर्ताओं ने प्राकृतिक भाषा प्रसंस्करण क्षमताओं में सुधार करने के लिए एक नया मशीन लर्निंग एल्गोरिदम विकसित किया है।
+  ENG: The research team has developed a new machine learning algorithm to improve natural language processing capabilities.
+
+Sentence 2:
+  HIN: सरकार ने ग्रामीण समुदायों के बीच डिजिटल साक्षरता को बढ़ावा देने के लिए एक व्यापक नीति की घोषणा की है।
+  ENG: The Government has announced a comprehensive policy to promote digital literacy among rural communities.
+
+Sentence 3:
+  HIN: भारी बारिश की चेतावनी के बावजूद, वार्षिक उत्सव के लिए मंदिर में हजारों भक्त एकत्र हुए।
+  ENG: Despite the heavy downpour, lakhs of devotees thronged the temple for the annual festival.
+
+Sentence 4:
+  HIN: मरीजों को कोई भी नई दवा या आहार पूरक शुरू करने से पहले अपने डॉक्टरों से परामर्श करने की सलाह दी जाती है।
+  ENG: Patients are advised to consult their doctors before starting any new medication or food supplements.
+
+Sentence 5:
+  HIN: हालांकि शुरुआती नतीजे आशाजनक थे, उच्च भार के तहत सिस्टम की स्थिरता सुनिश्चित करने के लिए आगे के परीक्षण की आवश्यकता है।
+  ENG: However, the early results were promising, further testing is required to ensure the stability of the system under high loads.
+
+
+[SARVAM-1]
+--------------------------------------------------
+Sentence 1:
+  HIN: संस्थान के शोधकर्ताओं ने प्राकृतिक भाषा प्रसंस्करण क्षमताओं में सुधार करने के लिए एक नया मशीन लर्निंग एल्गोरिदम विकसित किया है।
+  ENG: Researchers at the institute have developed a new machine learning algorithm for improving natural language processing capabilities.
+
+Sentence 2:
+  HIN: सरकार ने ग्रामीण समुदायों के बीच डिजिटल साक्षरता को बढ़ावा देने के लिए एक व्यापक नीति की घोषणा की है।
+  ENG: The government has announced a comprehensive policy for promoting digital literacy among rural communities.
+
+Sentence 3:
+  HIN: भारी बारिश की चेतावनी के बावजूद, वार्षिक उत्सव के लिए मंदिर में हजारों भक्त एकत्र हुए।
+  ENG: Despite the heavy rain warning, thousands of devotees gathered at the temple for the annual festival.
+
+Sentence 4:
+  HIN: मरीजों को कोई भी नई दवा या आहार पूरक शुरू करने से पहले अपने डॉक्टरों से परामर्श करने की सलाह दी जाती है।
+  ENG: Patients are advised to consult their doctors before starting any new medication or dietary supplement.
+
+Sentence 5:
+  HIN: हालांकि शुरुआती नतीजे आशाजनक थे, उच्च भार के तहत सिस्टम की स्थिरता सुनिश्चित करने के लिए आगे के परीक्षण की आवश्यकता है।
+  ENG: Although the initial results were promising, further testing is required to ensure stability of the system under high loads
+

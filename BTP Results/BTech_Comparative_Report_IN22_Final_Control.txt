@@ -1,0 +1,29 @@
+==================================================
+B.TECH PROJECT: FINAL ARCHITECTURE COMPARISON (IN22-GEN BF16)
+==================================================
+Date Completed: 2026-03-28 22:14:58
+Author: Harsh Dahiya
+Hardware: PARAM Rudra (A100 80GB)
+Task: English to Hindi Translation
+Benchmark Data: IN22-Gen Benchmark
+Control Variables: Native BF16, Rank=64, Target_Modules=all-linear
+
+FINAL QUANTITATIVE METRICS (English -> Hindi):
+--------------------------------------------------
+
+[PARAM-1]
+ - BLEU Score:  12.19
+ - chrF Score:  42.94
+ - COMET Score: 59.79
+
+[PRAGNA-1B]
+ - BLEU Score:  8.64
+ - chrF Score:  32.39
+ - COMET Score: 63.62
+
+[SARVAM-1]
+ - BLEU Score:  19.92
+ - chrF Score:  47.67
+ - COMET Score: 77.02
+
+==================================================

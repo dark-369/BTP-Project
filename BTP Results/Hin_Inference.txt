@@ -1,0 +1,29 @@
+1. Param-1: The Complete Contextual Collapse
+
+Because of the use_cache=False hack required to stop the custom architecture from crashing, Param-1 has zero short-term memory. It sees a few Hindi words and immediately starts hallucinating random, sensationalist news headlines from its training data.
+
+The Dark Hallucination: In Sentence 2, it translates a government policy about digital literacy as: "More than 100 people were killed".
+
+The Police Report: In Sentence 4, instead of translating medical advice about dietary supplements, it hallucinates: "Police reached the spot and brought the situation under control." * The Syntax Crash: In Sentence 5, it actually gets the translation right, but then the generation loop completely breaks and outputs an endless string of quote marks ("""""""""""").
+
+The Verdict: This is empirical proof that a 2.9B parameter size means absolutely nothing if the underlying tensor geometry and KV cache are broken.
+
+2. Pragna-1B: The "Close, But Not Perfect" Baseline
+
+Pragna produced very fluent, readable English. It didn't crash, and it didn't hallucinate police reports. However, it lost points on accuracy compared to Sarvam because of slight vocabulary and magnitude errors.
+
+The Magnitude Error: In Sentence 3, the Hindi word is "हजारों" (thousands). Pragna translates this as "lakhs of devotees" (hundreds of thousands). It sounds natural, but it is factually inaccurate.
+
+The Vocabulary Miss: In Sentence 4, it translates "आहार पूरक" as "food supplements". While understandable, it lacks the professional medical tone of the correct phrase.
+
+The Verdict: A highly efficient 1.25B model that proves your LoRA pipeline works, but lacks the deep bilingual alignment of a larger model.
+
+3. Sarvam-1: The Flawless Reconstructor
+
+Sarvam-1 didn't just translate the Hindi; it essentially reconstructed your original English test sentences word-for-word.
+
+Perfect Accuracy: It correctly translated "हजारों" to "thousands" (Sentence 3).
+
+Perfect Tone: It correctly translated "आहार पूरक" to the highly professional "dietary supplement" (Sentence 4).
+
+The Verdict: With a COMET score of 86.02, Sarvam-1 proves that its native architecture is incredibly stable, handles BFloat16 quantization perfectly, and deeply understands the semantic link between English and Hindi.

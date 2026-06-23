@@ -1,0 +1,14 @@
+==================================================
+B.TECH PROJECT: PARAM-1 DIAGNOSTIC (SAMANANTAR)
+==================================================
+Date Completed: 2026-03-28 21:31:36
+Hardware: PARAM Rudra (A100 80GB)
+Task: English to Hindi Translation
+Benchmark Data: Samanantar 1k Evaluation Split
+
+PARAM-1 METRICS (Native BF16):
+--------------------------------------------------
+ BLEU Score:  0.54
+ chrF Score:  5.39
+ COMET Score: 26.83
+==================================================

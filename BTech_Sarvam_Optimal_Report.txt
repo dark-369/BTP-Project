@@ -1,0 +1,14 @@
+==================================================
+B.TECH PROJECT: SARVAM-1 OPTIMAL RUN (EVAL-TRACKED)
+==================================================
+Date Completed: 2026-03-24 15:42:54
+Hardware: PARAM Rudra
+Training Data: 100,000 sentences
+Validation Data: 1,000 sentences
+
+1. QUANTITATIVE METRICS (Evaluated on the 1,000 test set)
+--------------------------------------------------
+Final BLEU Score:   20.74
+Final chrF Score:   45.34
+Final METEOR Score: 42.46
+==================================================
